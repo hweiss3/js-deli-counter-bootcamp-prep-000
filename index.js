@@ -18,6 +18,6 @@ function currentLine(katzDeli){
     for (var i = 0; i < katzDeli.length; i++) {
       base += ` ${i+1}. ${katzDeli[i]},`
     }
-     return base
+     return base.slice(0,-1)
     }
   }
